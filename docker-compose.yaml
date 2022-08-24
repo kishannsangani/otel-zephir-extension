@@ -1,0 +1,7 @@
+services:
+  ubuntu20_zephir: 
+    build: .
+    command: ["sleep", "6h"]
+    container_name: ubuntu20_zephir
+    ports: 
+      - "7400:80"
